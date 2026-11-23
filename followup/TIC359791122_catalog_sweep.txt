@@ -1,0 +1,44 @@
+Catalog sweep for TIC 359791122 at RA 270.70257 Dec -13.88538
+(server vizier.cds.unistra.fr not usable: HTTPSConnectionPool(host='vizier.cds.unistra.fr', port=443): Max retries exceede)
+Using VizieR server: vizier.cfa.harvard.edu
+
+Explicit catalogs (radius 5 arcsec)
+------------------------------------------------------------------------------
+AAVSO VSX (International Variable Star Index) no match
+GCVS (General Catalogue of Variable Stars)   no match
+Gaia DR3 eclipsing binary candidates         no match
+Gaia DR3 variability classification          no match
+ASAS-SN catalog of variable stars            no match
+ZTF periodic variables (Chen+ 2020)          no match
+ATLAS variable stars (Heinze+ 2018)          no match
+CRTS periodic variables (Drake+ 2014)        no match
+KELT variable stars (Oelkers+ 2018)          no match
+ASAS-3 variable stars                        no match
+WISE variable stars (Chen+ 2018)             no match
+
+Wide net: any other catalog about variable stars or eclipsing binaries with a row nearby
+------------------------------------------------------------------------------
+(could not list VizieR keywords: 'VizierClass' object has no attribute 'get_available_keywords')
+keywords used: Binaries: eclipsing, Stars: variable
+keyword Binaries: eclipsing: ERROR (HTTPSConnectionPool(host='vizier.cfa.harvard.edu', port=443))
+keyword Stars: variable: ERROR (HTTPSConnectionPool(host='vizier.cfa.harvard.edu', port=443))
+nothing found
+
+Control: does each catalog have any rows within 10 arcmin? (proves the id is real)
+------------------------------------------------------------------------------
+AAVSO VSX (International Variable Star Index) ok, has data nearby
+GCVS (General Catalogue of Variable Stars)   EMPTY: wrong id or no coverage here (inconclusive)
+Gaia DR3 eclipsing binary candidates         ok, has data nearby
+Gaia DR3 variability classification          ok, has data nearby
+ASAS-SN catalog of variable stars            EMPTY: wrong id or no coverage here (inconclusive)
+ZTF periodic variables (Chen+ 2020)          ok, has data nearby
+ATLAS variable stars (Heinze+ 2018)          ok, has data nearby
+CRTS periodic variables (Drake+ 2014)        EMPTY: wrong id or no coverage here (inconclusive)
+KELT variable stars (Oelkers+ 2018)          EMPTY: wrong id or no coverage here (inconclusive)
+ASAS-3 variable stars                        EMPTY: wrong id or no coverage here (inconclusive)
+WISE variable stars (Chen+ 2018)             EMPTY: wrong id or no coverage here (inconclusive)
+
+Summary
+------------------------------------------------------------------------------
+No explicit-catalog match within 5 arcsec.
+Reminder: 'not found' only covers the catalogs listed above, not the whole literature.

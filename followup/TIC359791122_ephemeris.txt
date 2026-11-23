@@ -1,0 +1,22 @@
+
+TIC 359791122 ephemeris from QLP sectors [80, 91, 92]
+----------------------------------------------------------------------
+Primary eclipses timed    : 148 used of 149
+Secondary eclipses timed  : 145 used of 147
+Scatter of primary times  : 0.8 minutes (rms around the straight line)
+
+Period (primary timing)   : 0.3630809 +- 0.0000001 d
+Period (secondary timing) : 0.3630809 +- 0.0000001 d
+Time of primary minimum   : BJD(TDB) 2460707.76247 +- 0.00004   (epoch E = 627)
+Secondary eclipse phase   : 0.4995 +- 0.0020   (0.5000 = circular orbit; error includes a 0.002 method floor)
+
+Light ephemeris           : Min I = BJD(TDB) 2460480.11071 + 0.3630809 x E
+
+Eclipse depths per sector (percent of out-of-eclipse flux, bootstrap errors)
+  sector        primary %      secondary %
+      80      1.44 +- 0.01      1.29 +- 0.02
+      91      1.43 +- 0.02      1.25 +- 0.02
+      92      1.41 +- 0.02      1.24 +- 0.02
+
+A period difference between primary and secondary timing larger than about 3 sigma, or a
+secondary phase far from 0.5, would be unusual for a contact binary. Tell me if you see that.
