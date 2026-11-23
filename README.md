@@ -22,7 +22,7 @@ One-time setup, in Terminal from this folder:
 
 1. Download the light curves (needs internet; resumable, safe to stop and rerun)
 
-       python3 step1_download.py --sector 80 --n 1500
+       python3 step1_download.py --sector 80 --n 1000
 
 2. Score every star
 
